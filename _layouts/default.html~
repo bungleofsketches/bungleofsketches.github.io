@@ -13,6 +13,7 @@
     <script type="text/javascript" src="//use.typekit.net/rqh4dbw.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     
+    {% include favicon.html %}
     {% include analytics.html %}
 </head>
     
