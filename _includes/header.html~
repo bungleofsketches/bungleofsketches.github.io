@@ -3,7 +3,7 @@
         
         {% if page.active == "blog" or page.path contains '_posts' %}
 	    	<a href="/"><img class="header__image" src="{{ site.url }}/assets/mono.png"></a>   
-		<a class="header__button--selected" href="/"> ~ About</a>
+				<a class="header__button--selected" href="/"> ~ About</a>
         {% else %}
 
 	    	<a href="/"><img class="header__image" src="{{ site.url }}/assets/mono.png"></a>   

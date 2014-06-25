@@ -38,24 +38,21 @@ c. .headerRight // Right segment
 }
 
 .header__button {
-    display: inline-block;
     padding: 0.6em;
     margin: 0.4em 2.2em 0em 0em;
     margin-top: -55px;
-    width: 5.7em;
     text-align: center;
     font-weight: 700;
     font-size: 0.9em;
     transition: 0.2s ease;
     text-transform: uppercase;
-    background: #2E363C;
     border-radius: 3px;
-    color: #FFF;
+    color: #333;
     float: right;
 
     &:hover {
         background: $accent;
-        color: #fff;
+        color: #333;
     }
 
     @media #{$break-medium} {
@@ -69,7 +66,6 @@ c. .headerRight // Right segment
 
 .header__button--selected {
     @extend .header__button;
-    background: $accent;
     
-    &:hover { background: #2E363C; }
+    &:hover { background: $accent; }
 }

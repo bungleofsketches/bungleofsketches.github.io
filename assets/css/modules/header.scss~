@@ -66,6 +66,7 @@ c. .headerRight // Right segment
 
 .header__button--selected {
     @extend .header__button;
+    background: $accent;
     
-    &:hover { background: $accent; }
+    &:hover { background: #e7e7e7; }
 }
